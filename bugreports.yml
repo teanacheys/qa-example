@@ -2,7 +2,7 @@
     Не работает восстановление пароля
   environment: |
     Google Chrome	107.0.5304.121 (Официальная сборка) (64 бит)
-    ОС	Linux
+    ОС Linux 22.04
   steps-to-reproduce: |
     1. Зайти на страницу логина https://runit.hexlet.ru/login
     2. Нажать ссылку "не помню пароль"
@@ -18,7 +18,7 @@
     Изменяется url в адресной строке браузера, не работают вкладки LOBBY/TOURNAMENT/COMPLETED GAMES
   environment: |
     Google Chrome	107.0.5304.121 (Официальная сборка) (64 бит)
-    ОС	Linux
+    ОС Linux
   steps-to-reproduce: |
     1. Залогиниться в системе https://codebattle.hexlet.io/session/new?locale=en&next=%2F
     2. Переключить Лидерборд по сроку (месяц/неделя/за все время)
