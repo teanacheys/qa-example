@@ -13,4 +13,4 @@ jobs:
     - name: install yamllint
       run: npm install -g yaml-lint
     - name: lint yamls
-      run: yamllint .
+      run: yamllint ./*.yml
